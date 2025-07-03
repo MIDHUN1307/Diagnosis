@@ -12,7 +12,7 @@ import java.io.File;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://diagnosisforyou.netlify.app")
 @Tag(name = "OCR API", description = "Endpoints for OCR text extraction and summarization")
 public class OCRController {
 
